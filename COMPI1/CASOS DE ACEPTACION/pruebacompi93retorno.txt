@@ -1,0 +1,10 @@
+//FUNCIONES RETORNO
+
+iniciar
+	numero @salto = 25;
+	
+	retorno(@salto){
+		return(@salto);
+	}
+
+final

@@ -1,0 +1,9 @@
+int main()
+{
+	int  x = 5;
+	int y = 6;
+	int valor = 0 ; 
+	while(x == y) {				
+		 double  ++ valor ;			//   --
+	}
+}

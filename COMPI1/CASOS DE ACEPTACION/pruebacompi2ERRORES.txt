@@ -1,0 +1,8 @@
+//ERRORES
+
+iniciar 
+
+	?
+	valor1
+	055
+final

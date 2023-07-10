@@ -1,0 +1,35 @@
+//INICIO 
+	int main()
+	{
+	    int resultado;
+
+	    resultado = 5 + 2;		
+	    printf("Resultado de la suma \n" resultado);
+	    resultado = 5 - 2;	//RESPUESTA
+    
+    
+    
+    
+    
+ //IF  ELSE
+ 
+	if (a > b) {
+		a =  b / 2;
+	}	
+	else { 
+	
+		a = 7;
+		b = a - 1;
+	}
+
+
+
+//FOR
+	for (i = 0; i < max; i++ ) {
+		space = 4 ;
+	}
+	
+	
+		
+
+	

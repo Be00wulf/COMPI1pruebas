@@ -1,0 +1,11 @@
+//IF
+
+iniciar
+	numero @salto = 25;
+	numero @valor1 = 10;
+	
+	if(@valor1){
+		escribir(@salto);
+	}
+
+final

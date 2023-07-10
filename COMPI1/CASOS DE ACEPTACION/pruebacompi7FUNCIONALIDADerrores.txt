@@ -1,0 +1,17 @@
+//ERRORES SINTACTICOS DE AGRUPACIONES
+
+iniciar
+color @rojo = ;
+while(4)
+	escribir();
+	leer()
+
+	if(asignar()){
+		escribir():
+	}
+	escribir();
+}
+color @azul = 2?
+color @azul = #AAAAAF;		//#[0-9a-fA-F]+    {6}
+escribir()/
+final

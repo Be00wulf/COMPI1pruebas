@@ -1,0 +1,13 @@
+//SWITCH
+iniciar
+
+numero @valor1 = 33;
+numero @salto = 25;
+
+	switch(@valor1){
+
+		leer(@salto);
+
+		escribir(@salto);
+	}
+final

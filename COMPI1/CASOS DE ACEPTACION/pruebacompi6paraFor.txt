@@ -1,0 +1,11 @@
+//FOR
+
+iniciar
+	numero @salto = 25;
+	numero @valor1 = 10;
+	
+	for( @salto ){
+		escribir(@salto);
+	}
+
+final

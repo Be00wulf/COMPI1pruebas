@@ -1,0 +1,9 @@
+//ERRORES EN DECLARACIONES
+
+iniciar
+	numero @valor = ;
+	numero @valor = 
+
+final
+
+//EJECUTAR?

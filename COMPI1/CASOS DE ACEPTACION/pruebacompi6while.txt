@@ -1,0 +1,16 @@
+//WHILE
+
+
+iniciar
+
+numero @valor1 = 33;
+numero @salto = 25;
+
+	while(6){
+
+		if(@valor1){
+			escribir(@salto);
+		}
+	}
+
+final

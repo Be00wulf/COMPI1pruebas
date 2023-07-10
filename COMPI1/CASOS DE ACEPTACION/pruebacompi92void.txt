@@ -1,0 +1,10 @@
+//FUNCIONES VOID
+
+iniciar
+	numero @salto = 25;
+	
+	void(@salto){
+		escribir(@salto);
+	}
+
+final

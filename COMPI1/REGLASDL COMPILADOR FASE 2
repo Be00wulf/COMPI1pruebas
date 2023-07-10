@@ -1,0 +1,318 @@
+LENGUAJE, estructura tipo C
+
+//INICIO CASO 1
+	int main()
+	{
+	int suma;
+	}
+	
+//INICIO CASO 1.1
+	int main()
+	{
+	int suma += 5;		// +=   -=   *=   /=   %=
+	}
+
+//INICIO CASO 1.2
+	int main()
+	{
+	int suma = 5;		
+	}	
+	
+//INICIO CASO 1.3
+	int main()
+	{
+	int suma ++;		// --
+	}	
+	
+//INICIO CASO 1.4
+	int main()
+	{
+	int ++ suma;		// --
+	}	
+	
+//inicio caso 1.5	
+	//para los casos del 1.0 al 1.4 aplica con tipos de dato:
+	//byte | int | char | long | float | double
+		
+	
+//INICIO CASO 1.6
+	//para los casos del 1.0 al 1.4 aplica con tipos de dato:
+	//( String )	
+	
+
+	
+
+
+
+
+	
+	
+//IF CASO 2 if-else
+	int main()
+	{
+	int X = 2;
+	int valor1 = 5;
+	int valor2 = 7;
+
+	if ( x > 3 ) {
+		int valor1; }		//para todo tipo de dato (int)  .
+	
+	else { 
+		int valor2; }
+	}
+
+
+//IF CASO 2.1  Identificador Op_relacional Op_booleano |
+	int main()
+	{
+	int x = 5;
+	int valor1 = 7;
+	int valor2 = 8;
+	if ( x == false ) {	//para todo relacional  ">" | "<" | "==" | "!=" | ">=" | "<=" | "<<" | //">>" 
+		int valor1; }	
+	
+	else { 
+		int valor2; }
+	}
+	
+	
+//IF CASO 2.2 	Identificador Op_relacional Numero 
+	int main()
+	{
+	int x = 5;
+	int valor1 = 7;
+	int valor2 = 8;
+	if ( x == 1 ) {		//para todo relacional  ">" | "<" | "==" | "!=" | ">=" | "<=" | "<<" | //">>" 
+		int valor1; }	
+	
+	else { 
+		int valor2; }
+	}
+	
+
+
+
+
+
+
+
+//IF CASO 2.3		Identificador Op_relacional Identificador
+
+	int main()
+	{
+	int x = 5;
+	int y = 6;
+	int valor1 = 7;
+	int valor2 = 8;
+	if ( x == y ) {		//para todo relacional  ">" | "<" | "==" | "!=" | ">=" | "<=" | "<<" | //">>" 
+		int valor1; }	
+	
+	else { 
+		int valor2; }
+	}
+
+
+//IF CASO 2.4		Identificador Op_relacional Comillas Comillas
+
+	int main()
+	{
+	int x = 5;
+	int y = 6;
+	int valor1 = 7;
+	int valor2 = 8;
+	if ( x == " "  ) {	//para todo relacional  ">" | "<" | "==" | "!=" | ">=" | "<=" | "<<" | //">>" 
+		int valor1; }	
+	
+	else { 
+		int valor2; }
+	}
+
+
+
+//IF CASO 2.5		Identificador Op_relacional Comillas Identificador Comillas
+
+	int main()
+	{
+	int x = 5;
+	int y = 6;
+	int valor1 = 7;
+	int valor2 = 8;
+	
+	if ( x == " hola "  ) {	//para todo relacional  ">" | "<" | "==" | "!=" | ">=" | "<=" | "<<" | //">>" 
+		int valor1; }	
+	
+	else { 
+		int valor2; }
+	}
+
+//FOR CASO 3	
+int main()
+	{
+	int max = 6;
+for (i = 0; i < max; i++ )       //para todo relacional  ">" | "<" | "==" | "!=" | ">=" | "<=" | "<<" | //">>" 	
+	{
+		int valor = 1;				//
+	}	
+}	
+	
+
+
+//FOR CASO 3.1		decremento/incremento despues
+
+int main()
+	{
+	int max = 6;
+	for (i = 0; i < max; i++ )	//para ++ o --
+	{
+		int valor ++;				// --	
+	 }	
+	}
+
+
+//FOR CASO 3.2  ERROR posicion de ++ antes del tipo de dato decremento/incremento antes
+
+int main()
+	{
+	int max = 6;
+	for (i = 0; i < max; i++ )
+	{
+		++ int valor ;				// --	
+	 }	
+	}
+
+
+//FOR CASO 3.2	decremento/incremento antes
+int main()
+	{
+	int max = 6;
+	for (i = 0; i < max; i++ )
+	{
+		int ++valor ;				// --	
+	 }	
+	}
+
+
+
+
+//WHILE CASO 4 
+int main()
+{
+	while(true) {			//TRUE/FALSE
+		int valor;		//sentencia
+	}
+}
+
+//WHILE CASO 4.1
+int main()
+{
+	int  x = 5;
+	
+	while(x == true) {				//">" | "<" | "==" | "!=" | ">=" | "<=" | "<<" | ">>"
+		int valor += 5;				//"+=" | "-="  | "*=" | "/=" | "%="
+	}
+}
+
+//WHILE CASO 4.2
+int main()
+{
+	int  x = 5;
+	while(x > 1) {				//">" | "<" | "==" | "!=" | ">=" | "<=" | "<<" | ">>"
+		int valor = 5;		
+	}
+}
+
+//WHILE CASO 4.3
+int main()
+{
+	int  x = 5;
+	int y = 6;
+	int valor = 0;
+	while(x > y) {				//">" | "<" | "==" | "!=" | ">=" | "<=" | "<<" | ">>"
+		int valor ++ ;			//   --
+	}
+}
+
+//WHILE CASO 4.4
+int main()
+{
+	int  x = 5;
+	int valor = 0 ; 
+	while(x == " ") {				//
+		 int ++ valor ;			//   --
+	}
+}
+
+
+//WHILE CASO 4.5
+int main()
+{
+	int  x = 5;
+	int y = 6;
+	int valor = 0 ; 
+	while(x == " y ") {				//
+		 int valor ;			//   --
+	}
+}
+
+//WHILE CASO 4.6
+int main()
+{
+	int  x = 5;
+	int y = 6;
+	int valor = 0 ; 
+	while(x == " y ") {				//
+		 float numero ;			//   --
+	}
+}
+
+//WHILE CASO 4.7
+int main()
+{
+	int  x = 5;
+	int y = 6;
+	int valor = 0 ; 
+	while(x == y) {				
+		 double  valor += 4 ;			//   "+=" | "-="  | "*=" | "/=" | "%=" 
+	}
+}
+
+//WHILE CASO 4.8
+int main()
+{
+	int  x = 5;
+	int y = 6;
+	int valor = 0 ; 
+	while(x == y) {				
+		 double  valor = 4 ;			
+	}
+}
+
+
+
+
+
+
+//WHILE CASO 4.9
+int main()
+{
+	int  x = 5;
+	int y = 6;
+	int valor = 0 ; 
+	while(x == y) {				
+		 double  valor ++ ;			//   --
+	}
+}
+
+//WHILE CASO 4.10
+int main()
+{
+	int  x = 5;
+	int y = 6;
+	int valor = 0 ; 
+	while(x == y) {				
+		 double  ++ valor ;			//   --
+	}
+}
+
+//SWITCH CASO 5
+

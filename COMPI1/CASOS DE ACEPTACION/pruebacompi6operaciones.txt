@@ -1,0 +1,12 @@
+//AGRUPACIONES DE TOKENS
+
+iniciar
+	numero @pasos = 5;
+	numero @saltos = 5;
+	numero @true = 1;
+
+	numero @resultado = @pasos * @saltos;
+	if(@true){
+		escribir(@resultado);
+	}
+final

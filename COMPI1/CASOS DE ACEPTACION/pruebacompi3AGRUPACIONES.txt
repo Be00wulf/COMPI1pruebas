@@ -1,0 +1,5 @@
+//AGRUPACIONES DE TOKENS
+
+iniciar
+	numero @salto = 25;
+final

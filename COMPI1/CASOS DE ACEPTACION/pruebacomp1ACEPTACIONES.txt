@@ -1,0 +1,29 @@
+//ACEPTACIONES 
+
+iniciar
+	@precio
+	numero
+	124
+
+	( ) { }
+	, ;
+	=
+	& |
+
+	if else
+	for
+	while
+	switch case break
+
+	+ - * /
+
+	leer 
+	escribir
+	void
+	retorno
+	return
+
+	//hola
+	/*hola
+	que tal?*/
+final
